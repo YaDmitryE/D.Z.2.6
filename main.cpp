@@ -2,6 +2,7 @@
 
 #include <stdio.h>
 #include <locale.h>
+#include "utf8.h"
 
 int main()
 
