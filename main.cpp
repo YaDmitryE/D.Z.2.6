@@ -2,7 +2,6 @@
 
 #include <stdio.h>
 #include <locale.h>
-#include "utf8.h"
 
 int main()
 
@@ -90,7 +89,7 @@ int main()
         if (((d >= 22) && (m == 12)) || ((d <= 20) && (m == 1))) {
             printf("козерог \n");
         }
-        else { 
+        else {
             if (((d >= 21) && (m == 1)) || ((d <= 19) && (m == 2))) {
                 printf("водолей \n");
             }
