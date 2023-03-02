@@ -7,6 +7,7 @@ int main()
 
 
 {
+	system("chcp 1251");
 	setlocale(LC_ALL, "Russian");
     int d, m, y;
     printf("введите дату рождения \n");
